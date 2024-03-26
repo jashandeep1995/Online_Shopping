@@ -1,0 +1,38 @@
+.send-message
+{
+   
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.send-message label
+{
+    font-size: 14px;
+    font-weight: 700;
+    margin:20px 5px 0 0;
+    color: aliceblue;
+
+}
+.send-message input
+{
+    padding:3px;
+    border-radius: 5px;
+    margin-top: 5px;
+   
+}
+.send-message button
+{
+    background-color: rgb(113, 113, 228);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding:8px;
+    border-radius: 4px;
+    font-weight: 700;
+    width:100px;
+    margin: 20px 0 0 10px;
+    
+}

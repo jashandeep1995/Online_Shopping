@@ -1,0 +1,39 @@
+.footer
+{
+    background-color:rgb(71, 83, 85);
+    color: white;
+    font-size: 20px;
+    padding:20px;
+    font-style: italic;
+    text-align: center;
+}
+.socialicon
+{
+    margin: 10px 0px 20px 0px;
+  
+}
+.chat 
+{
+    background-color: antiquewhite;
+    text-align: right;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size:15px;
+    bottom: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+    right:0;
+    border-radius:9px;
+    padding: 4px;
+    color:green;
+    position:fixed;
+    text-decoration: none;
+}
+.appointment
+{
+  color: rgb(192, 169, 100);
+  border: 1px solid white;
+  border-radius: 4px;
+  padding:5px;
+  
+}

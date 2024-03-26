@@ -1,0 +1,165 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+  *
+  {
+      margin:0;
+      box-sizing: border-box;
+     
+  } 
+  .container
+  {
+      margin: auto;
+      max-width: 1200px;
+  } 
+  .headerp
+  {
+    z-index:10;
+    position: relative;
+    background-color: rgb(202, 213, 163);
+    display: block;
+  }
+  .topbar
+  {
+    background-color:rgb(71, 83, 85);
+  }
+  .items
+  {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .cart
+{
+  color: rgb(71, 83, 85);
+  margin-right:30px;
+  position: relative;
+
+  
+}
+.carticon
+{
+  color:rgb(71, 83, 85);
+}
+
+.itemcount
+{
+  
+  position: absolute;
+}
+  .currency
+  {
+    color: black;
+    font-weight:800;
+    font-size:10px;
+    padding: 2px;
+    margin-left:10px;
+   
+  }
+  .account
+  {
+   
+   display: flex;
+   align-items: center;
+   font-weight: 800;
+  
+  }
+  .signin
+  {
+   
+    padding-right:20px;
+    text-decoration: none;
+    color:white;
+    padding:10px;
+   
+  }
+  .signin:hover
+  {
+    color: rgb(150, 143, 143);
+  }
+  .menubar
+  {
+    display: flex;
+    align-items: center;
+  
+  }
+
+  .menubr
+  {
+    
+    display: flex;
+    justify-content:space-between;
+  }
+  .menuitems
+  {
+    display: flex;
+   justify-content:center;
+   
+  }
+  .categories
+{
+  text-decoration: none;
+  padding: 15px;
+  color:rgb(10, 28, 10);
+  font-weight: 800;
+  
+}  
+.categories:hover{
+  color: rgb(116, 137, 114);
+}
+.favi
+{
+  background: none;
+  border:none;
+  border-radius:5px;
+  padding: 5px;
+  font-size:18px;
+  cursor: pointer;
+  
+  
+}
+.heartt
+{
+  color: rgb(71, 83, 85);
+  font-size:18px;
+}
+.itemcount
+{
+  position: relative;
+  left:3px;
+  color:rgb(71, 83, 85);
+  font-size: 18px;
+}
+.menuiconn
+{
+  visibility: hidden;
+}
+
+/*iPhone SE*/
+@media screen and (min-width: 350px) and (max-width:940px) {
+  
+  
+
+  .menuiconn
+{
+  visibility:visible;
+  margin:8px 0 0 8px;
+ 
+}
+.menuitems
+{
+  
+ display: block;
+ position:fixed;
+ top:80px;
+ left:0;
+ z-index:999;
+  overflow: auto;
+  background-color: rgb(202, 213, 163);
+}
+.categories
+{
+  display: block;
+}  
+  
+  }

@@ -1,0 +1,46 @@
+.chat-box
+{
+    background-color:rgb(15, 13, 13);
+    padding:10px;
+    border-radius: 8px 0 0 8px;
+    position: fixed;
+    transform: translateX(0px);
+    bottom:0;
+    right:0;
+    width:350px;
+    max-width: 100%;
+    z-index:999;
+    height:50vh;
+    overflow: scroll;
+    
+}
+.chat-box h1
+{
+    margin-bottom:30px;
+}
+.close
+{
+    margin: auto;
+    position:fixed;
+    top:5px;
+    right:0;
+    color: aliceblue;
+   
+}
+.chat-box h1
+{
+   color: aliceblue;
+   font-style: italic;
+}
+
+@media screen and (min-width: 350px) and (max-width:940px) {
+
+    .chat-box
+{
+    
+   
+    width:250px;
+    max-width: 100%;
+  
+}
+}

@@ -1,0 +1,26 @@
+.chat-user
+{
+    background-color: rgb(224, 224, 213);
+    border-radius:8px;
+    font-style: italic;
+    color: rgb(2, 11, 29);
+}
+.userMessage
+{
+    color: rgb(191, 117, 147);
+}
+
+.user-name
+{
+    font-weight: 800;
+    margin-bottom:4px;
+}
+.chat-bubble
+{
+   
+    margin-bottom:5px;
+    padding:10px;
+    
+}
+
+
