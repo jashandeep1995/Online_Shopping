@@ -84,7 +84,7 @@ const Register = ()=>{
 
          </form>
          
-         <div className="banner"><img src="dist/assets/register.jpg" alt="shopping" /></div>
+         <div className="banner"><img src="public/register.jpg" alt="shopping" /></div>
          </div>
       
     );
